@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp.Services.Interfaces
+﻿namespace ConsoleApp.BLL.Services.Interfaces
 {
     public interface ILogger<in T>
     {

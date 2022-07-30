@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApp.Services.Interfaces
+namespace ConsoleApp.DAL.Services.Interfaces
 {
     public interface IReader
     {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ConsoleApp.Models;
-using ConsoleApp.Services.Interfaces;
+using ConsoleApp.BLL.Models;
+using ConsoleApp.BLL.Services.Interfaces;
 
-namespace ConsoleApp.Services
+namespace ConsoleApp.BLL.Services
 {
     public class DataParser : IParser
     {

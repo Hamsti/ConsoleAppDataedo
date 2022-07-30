@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using ConsoleApp.DAL.Services.Interfaces;
+using System.Collections.Generic;
 using System.IO;
-using ConsoleApp.Services.Interfaces;
 
-namespace ConsoleApp.Services
+namespace ConsoleApp.DAL.Services
 {
     public class FileReader : IReader
     {
@@ -15,6 +15,11 @@ namespace ConsoleApp.Services
                 while (!streamReader.EndOfStream)
                 {
                     var line = streamReader.ReadLine();
+
+                    if (string.IsNullOrWhiteSpace(line))
+                    {
+                        continue;
+                    }
 
                     importedLines.Add(line);
                 }

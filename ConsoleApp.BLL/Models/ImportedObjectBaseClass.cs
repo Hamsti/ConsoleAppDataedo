@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp.Models
+﻿namespace ConsoleApp.BLL.Models
 {
     public class ImportedObjectBaseClass
     {

@@ -1,5 +1,6 @@
-﻿using System;
-using ConsoleApp.Services;
+﻿using ConsoleApp.BLL.Services;
+using ConsoleApp.DAL.Services;
+using System;
 
 namespace ConsoleApp
 {

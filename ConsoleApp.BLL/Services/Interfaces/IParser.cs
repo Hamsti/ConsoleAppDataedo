@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ConsoleApp.Models;
+using ConsoleApp.BLL.Models;
 
-namespace ConsoleApp.Services.Interfaces
+namespace ConsoleApp.BLL.Services.Interfaces
 {
     public interface IParser
     {
